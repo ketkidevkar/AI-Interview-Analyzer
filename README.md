@@ -1,52 +1,77 @@
-# AI-Interview-Analyzer
-AI-powered interview analysis system for resume screening, candidate evaluation, and smart feedback generation.
+# 🤖 AI Interview Analyzer
 
-## Overview
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-WebApp-black.svg)
+![NLP](https://img.shields.io/badge/NLP-BERT-orange.svg)
+![Machine Learning](https://img.shields.io/badge/ML-AI-green.svg)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)
 
-AI Interview Analyzer is an intelligent recruitment assistance system designed to automate and improve candidate interview evaluation using Artificial Intelligence and Natural Language Processing.
+AI-powered interview analysis system for resume screening, candidate evaluation, and intelligent feedback generation.
 
-The system analyzes candidate responses, compares answer quality, evaluates communication effectiveness, and generates structured hiring insights for recruiters.
+---
 
-## Key Features
+## 🚀 Overview
 
-- Candidate response analysis
-- AI-based interview scoring
-- Resume screening support
-- Candidate comparison
-- Semantic similarity evaluation
-- Smart recommendation system
-- Dashboard for interview insights
+AI Interview Analyzer is an AI-driven recruitment intelligence system that automates candidate evaluation using Machine Learning and NLP techniques.
 
-## Technologies Used
+It analyzes candidate responses, resumes, and communication quality, then generates structured hiring insights for recruiters.
 
-- Python
-- Natural Language Processing (NLP)
-- BERT / Sentence-BERT
-- Machine Learning
-- Flask
-- HTML
-- CSS
-- JavaScript
+---
 
-## Use Cases
+## ✨ Key Features
 
-- Campus recruitment
-- HR screening
-- Automated interviews
-- Candidate shortlisting
-- Hiring analytics
+- 🧠 AI-based interview response evaluation  
+- 📊 Automated candidate scoring system  
+- 📄 Resume screening and parsing support  
+- ⚖️ Candidate comparison engine  
+- 🔍 Semantic similarity using BERT / Sentence-BERT  
+- 💡 Intelligent hiring recommendations  
+- 📈 Recruiter dashboard with insights  
 
-## Future Enhancements
+---
 
-- Voice interview analysis
-- Facial expression detection
-- Cloud deployment
-- Real-time interview assistant
+## 🧠 System Architecture
 
-## Status
+Resume → NLP Preprocessing → BERT Embeddings →  
+Response Analysis → Similarity Scoring → ML Model → Final Evaluation Dashboard
 
-Source code and modules will be updated soon.
+---
 
-## Author
+## 🛠️ Tech Stack
 
-Ketki Devkar
+- Python  
+- Flask  
+- Natural Language Processing (NLP)  
+- BERT / Sentence-BERT  
+- Machine Learning (Scikit-learn)  
+- HTML, CSS, JavaScript  
+
+---
+
+## 📸 Screenshots
+
+(Add images in `/assets` folder)
+
+- Dashboard: `assets/dashboard.png`  
+- Resume Analysis: `assets/resume.png`  
+- Score Report: `assets/score.png`  
+
+---
+
+## 🎯 Use Cases
+
+- Campus recruitment automation  
+- HR resume screening  
+- Candidate shortlisting  
+- AI interview assistance  
+- Hiring analytics systems  
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/AI-Interview-Analyzer.git
+cd AI-Interview-Analyzer
+pip install -r requirements.txt
+python app.py
